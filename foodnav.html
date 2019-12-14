@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>INST377 Final Project: UMD FoodNav</title>
+    <link rel = "stylesheet" type = "text/css" href = "foodnav.css">
+  <head/>
+
+<body>
+  <div id = "background"><div/>
+  <!--Navigation Bar-->
+  <div id = "navbar">
+    <ul>
+      <li><a href = "allestablishments.html">All Establishments</a></li>
+      <li><a href = "map.html">Map</a></li>
+      <li><a class = "active" href = "foodnav.html">Home</a></li>
+    </ul>
+  </div>
+  <!--Website Greeting-->
+  <header>
+  <h1>Welcome to UMD FoodNav<h1>
+  </header>
+    <!--Please fill out information-->
+    <h3>Please fill out the information below</h3>
+      <!--Form-->
+      <div id = "form">
+        <form action = "engine.php" method = "post">
+        <br>
+        <p1>Are you on campus or off campus?<p1>
+        <br>
+        <hr>
+        <br>
+          <select name="distance">
+            <option value="On campus">On campus</option>
+            <option value="Off campus">Off campus</option>
+          </select>
+        <br>
+        <br>
+        <br>
+        <p2>Do you have any dietary restrictions?</p2>
+        <br>
+        <hr>
+        <br>
+          <select name="diet">
+            <option value="No Restrictions">No Restrictions</option>
+            <option value="Vegetarian">Vegetarian</option>
+            <option value="Gluten Free">Gluten Free</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Lactose Intolerant">Lactose Intolerant</option>
+            <option value="Pescatarian">Pescatarian</option>
+          </select>
+        <br>
+        <br>
+        <br>
+        <p3>What are you in the mood for?</p3>
+        <br>
+        <hr>
+        <br>
+        <select name="mood">
+          <option value="Fast Food">Fast Food</option>
+          <option value="Casual Dining">Casual Dining</option>
+          <option value="Fine Dining">Fine Dining</option>
+          <option value="Convenience">Convenience</option>
+          <option value="Drinking">Drinking</option>
+          <option value="Desserts">Desserts</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <button type="submit" class="submit">Submit</button>
+      </form>
+      </div>
+      <!--University of Maryland Logo-->
+      <img src = "UMD Logo.png">
+</body>
+</html>
