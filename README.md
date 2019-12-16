@@ -1,6 +1,6 @@
 # UMD FoodNav
 -Team Members
-    Yuwen Zhu- yuwenzhu@gmail.com -project manager; 
+    Yuwen Zhu- zhuyuwen90@gmail.com; 
     Sheldon Akinrimisi- sheldonakinrimisi@gmail.com; 
     Sandhya Bagalkotkar- sandhyabagalkotkar@gmaiul.com; 
     Zhaofeng Kang- zhaofengkang@gmail.com;
